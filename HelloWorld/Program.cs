@@ -4,7 +4,13 @@
     {
         public static void Main(string[] args)
         {
-            //Koodi tähän
+            string nimi = "Timur";
+            string kaupunki = "Vantaa";
+
+            Console.WriteLine("Minun nimeni on " + nimi + " ja asun kaupungissa " + kaupunki);
+            Console.WriteLine(nimi + kaupunki);
+            Console.WriteLine(nimi + " " + kaupunki);
+
            
         }
     }
